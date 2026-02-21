@@ -1,10 +1,6 @@
 export default function HeroSection() {
   return (
-    <section
-      className="h-[600px] bg-cover bg-center relative flex items-center justify-center"
-      style={{ backgroundImage: "url('/hero.jpg')" }}
-    >
-      <div className="absolute inset-0 bg-black/60"></div>
+    <section className="h-[600px] bg-[url('/hero.jpg')] bg-cover bg-center relative flex items-center justify-center">  <div className="absolute inset-0 bg-black/60"></div>
 
       <div className="relative text-center text-white max-w-3xl">
         <h1 className="text-5xl font-bold mb-4">
